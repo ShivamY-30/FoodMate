@@ -1,0 +1,23 @@
+.dark{
+    background-color: #111534;
+    color: white;
+    h1{
+        color: white;
+    }
+    li{
+        color: white;
+    }
+    button{
+        color: rgb(255, 0, 0);
+    }
+    button:hover{
+        color: black;
+    }
+
+    /* LinkStyles.css */
+.custom-link {
+    color: white; /* Sets text color to black */
+}
+
+    
+}
