@@ -7,9 +7,9 @@ import { StoreContext } from "../../Store/StoreContextProvider";
 import { useContext } from "react";
 
 const Cart = () => {
-  const url = "http://localhost:8000/";
+  // const url = "http://localhost:8000/";
 
-  const { fetchCartData, removeFromCart } = useContext(StoreContext);
+  const { fetchCartData, removeFromCart , url} = useContext(StoreContext);
 
   const [cartData, setCartData] = useState(null); // State to hold cart data
 
