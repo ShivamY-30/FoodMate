@@ -15,7 +15,7 @@ import { toast } from 'react-toastify'
 const LoginPopup = ({ setshowLogin }) => {
 
 
-    const url = "http://localhost/8000";
+    const url = "https://foodmate-f45t.onrender.com";
     // http://localhost:8000/api/user/login
 
     const dispatch = useDispatch();
@@ -44,9 +44,9 @@ const LoginPopup = ({ setshowLogin }) => {
     let newUrl;
     event.preventDefault();
     if (currState === "Login"){
-      newUrl = "http://localhost:8000/api/user/login";
+      newUrl = "https://foodmate-f45t.onrender.com/api/user/login";
     }else{
-      newUrl = "http://localhost:8000/api/user/register";
+      newUrl = "https://foodmate-f45t.onrender.com/api/user/register";
     }
 
     const response = await axios.post(newUrl , data);
