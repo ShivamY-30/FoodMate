@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:8000/";
+  const url = "https://foodmate-f45t.onrender.com/";
 
   return (
     <div>
