@@ -18,7 +18,7 @@ const FoodMain = ({ category, setcategory }) => {
 
 
  
-  const url = "http://localhost:8000/";
+  const url = "https://foodmate-f45t.onrender.com/";
   const [list, setList] = useState([]);
 
   const fetchList = async () => {
