@@ -12,7 +12,7 @@ import { StoreContext } from '../../Store/StoreContextProvider'
 
 
 const FoodItems = ({ id, name, description, price, image }) => {
-  const url = "http://localhost:8000/";
+  const url = "https://foodmate-f45t.onrender.com/";
 
   const {addToCart , removeFromCart} = useContext(StoreContext);
 
